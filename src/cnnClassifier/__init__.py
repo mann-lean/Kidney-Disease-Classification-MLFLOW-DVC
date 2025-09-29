@@ -17,4 +17,4 @@ logging.basicConfig(
         logging.StreamHandler(sys.stdout)
     ]
 )
-logger=logging.getLoger("cnnClassiferLogger")
+logger=logging.getLogger("cnnClassiferLogger")

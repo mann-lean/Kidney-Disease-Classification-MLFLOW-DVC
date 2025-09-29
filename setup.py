@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Kidney-Disease-Classification-Deep-Learning-Project"
 AUTHOR_USER_NAME = "mann-lean"
-SRC_REPO = "cnnClassifier"
+SRC_REPO = "cnnClassifier"  #for makeing frequently using local folder
 AUTHOR_EMAIL = "mannlearn210@gmail.com"
 
 
