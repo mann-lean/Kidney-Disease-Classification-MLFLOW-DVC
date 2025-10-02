@@ -47,3 +47,47 @@ x==========x]
 [2025-09-30 12:30:07,416: INFO: main: >>>>>>Stage Data Ingestion Stage completed <<<<<<<
 
 x==========x]
+[2025-10-02 07:18:54,905: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-02 07:18:54,991: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-02 07:18:54,998: INFO: common: created directory at: artifacts]
+[2025-10-02 07:18:55,007: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-02 13:22:07,380: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-02 13:22:07,688: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-02 13:22:07,700: INFO: common: created directory at: artifacts]
+[2025-10-02 13:22:07,705: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-02 13:32:24,225: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-02 13:32:24,242: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-02 13:32:24,248: INFO: common: created directory at: artifacts]
+[2025-10-02 13:32:24,254: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-02 13:32:43,502: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-02 14:02:41,926: INFO: main: >>>>>>Stage Data Ingestion Stage started <<<<<<<]
+[2025-10-02 14:02:41,934: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-02 14:02:41,942: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-02 14:02:41,944: INFO: common: created directory at: artifacts]
+[2025-10-02 14:02:41,945: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "E:\Immediate watch\September\end to end DEEP learning Kindey project\CodeME\Kidney-Disease-Classification-MLFLOW-DVC\main.py", line 10, in <module>
+    obj.main()
+  File "e:\immediate watch\september\end to end deep learning kindey project\codeme\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\pipeline\stage_01_pipeline.py", line 12, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-10-02 14:12:39,570: INFO: main: >>>>>>Stage Data Ingestion Stage started <<<<<<<]
+[2025-10-02 14:12:39,577: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-02 14:12:39,586: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-02 14:12:39,588: INFO: common: created directory at: artifacts]
+[2025-10-02 14:12:39,589: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-02 14:12:39,591: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-02 14:12:58,510: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-02 14:13:01,017: INFO: main: >>>>>>Stage Data Ingestion Stage completed <<<<<<<
+
+x==========x]
+[2025-10-02 14:13:01,020: INFO: main: >>>>>>>>Stage {STAGE_NAME} started<<<<<<<<<<<]
+[2025-10-02 14:13:01,028: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-02 14:13:01,037: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-02 14:13:01,040: INFO: common: created directory at: artifacts]
+[2025-10-02 14:13:01,042: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-02 14:13:03,315: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-02 14:13:04,847: INFO: main: >>>>>>>>Stage Prepare Base Model  completed<<<<<<<<<<<<
+
+x==========x]
