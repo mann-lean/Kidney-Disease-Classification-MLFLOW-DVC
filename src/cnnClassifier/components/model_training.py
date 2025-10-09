@@ -1,10 +1,10 @@
-from cnnClassifier.entity.config_entity import TrainingConfig
 import os
-import tensorflow as tf
-from pathlib import Path
 import urllib.request as request
-import time
 from zipfile import ZipFile
+import tensorflow as tf
+import time
+from pathlib import Path
+from cnnClassifier.entity.config_entity import TrainingConfig
 
 
 class Training:
@@ -64,7 +64,8 @@ class Training:
     
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
-        model.save(path)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        model.save(path,save_format='h5')
 
 
 

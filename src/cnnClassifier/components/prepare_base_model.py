@@ -1,8 +1,8 @@
 import os
 import urllib.request as request
 from zipfile import ZipFile
-import tensorflow as tf
 from pathlib import Path
+import tensorflow as tf
 from cnnClassifier.config.configuration import PrepareBaseModelConfig
 
 #  class PrepareBaseModel that handles the process of setting up a deep learning model for a transfer learning task. The class's methods are responsible for loading a pre-trained model, modifying its architecture for a new classification problem, and saving the models at different stages.
