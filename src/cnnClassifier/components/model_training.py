@@ -65,7 +65,7 @@ class Training:
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         path.parent.mkdir(parents=True, exist_ok=True)
-        model.save(path,save_format='h5')
+        model.save(path,save_format='h5')   #saving in h5 format (imp)
 
 
 
